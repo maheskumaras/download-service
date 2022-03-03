@@ -6,9 +6,9 @@ const axios = require('axios');
 
 const apps = {
   devHydrameet:'https://pvc-api-dev.instrive.net/web/v1/',
-  liveHydrameet:'https://vc-api.instrive.net/web/v1/',
-  nicmeet:'',
-  railmeet:''
+  liveHydrameet:'https://vcapi.hydrameet.net/web/v1/',
+  nicmeet:'https://api-nic.hydrameet.in/web/v1/',
+  railmeet:'https://railmeet-vcapi.hydrameet.net/web/v1/'
 }
 
 /* GET home page. */
