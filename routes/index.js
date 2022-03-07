@@ -28,7 +28,7 @@ router.get('/recording/:env/:recording_id', async(req, res, next) => {
       res.send(axiosResp.data)
     }else
     {
-      res.download('./recordings/'+axiosResp.data.url);
+      res.download('./recordings/'+axiosResp.data.directory_path+'/'+axiosResp.data.url);
     }
   }).catch(function (error) {
     if (error.response) {
